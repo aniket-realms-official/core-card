@@ -217,7 +217,7 @@ module "db_server" {
   source         = "./ec2"
   ami_type       = var.DB_ami_type
   ec2_count      = var.DB_inst_count_tf
-  ebs_count      = var.DB_ebs_count_tf
+  ebs_count      = var.DB_inst_count_tf
   instance_type  = var.DB_inst_type_tf
   ec2_name       = "primary_db"
   ebs_vol_size   = var.DB_ebs_size_tf
