@@ -155,9 +155,9 @@ variable "DB_inst_type_tf" {
 variable "DB_inst_count_tf" {
   default = 2
 }
-variable "DB_ebs_count_tf" {
-  default = 6
-}
+# variable "DB_ebs_count_tf" {
+#   default = 6
+# }
 variable "DB_ebs_size_tf" {
   default = 100
 }
@@ -173,9 +173,9 @@ variable "RPLDB_inst_type_tf" {
 variable "RPLDB_inst_count_tf" {
   default = 2
 }
-variable "RPLDB_ebs_count_tf" {
-  default = 6
-}
+# variable "RPLDB_ebs_count_tf" {
+#   default = 6
+# }
 variable "RPLDB_ebs_size_tf" {
   default = 100
 }
@@ -190,9 +190,9 @@ variable "DIST_DB_inst_type_tf" {
 variable "DIST_DB_inst_count_tf" {
   default = 2
 }
-variable "DIST_DB_ebs_count_tf" {
-  default = 6
-}
+# variable "DIST_DB_ebs_count_tf" {
+#   default = 6
+# }
 variable "DIST_DB_ebs_size_tf" {
   default = 100
 }
