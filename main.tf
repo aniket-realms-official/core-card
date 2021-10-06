@@ -148,7 +148,7 @@ module "WCF_server" {
   ebs_count      = var.WCF_inst_count_tf
   instance_type  = var.WCF_inst_type_tf
   ec2_name       = "WCF"
-  ebs_vol_size   = var.WCF_ebs_size_tf
+  # ebs_vol_size   = var.WCF_ebs_size_tf
   security_group = module.vpc_appserver.security_group
   subnets        = module.vpc_appserver.private_subnets
 }
